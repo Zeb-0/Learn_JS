@@ -31,4 +31,13 @@ They follow the following rules:
 A JS name must begin with:
 - A leter (A - Z or a - z)
 - A dollar sign ($)
-- Underscore (_)
+- Underscore (_)  
+DO NOT USE `RESERVED words` like `JS keywords` as names.
+
+# Variables
+When to use `var`, `let`, or `const`?:
+- Always declare variables
+- Always use `const` if the value is not to be changed
+- Always use `const` if the type is not to be changed - Arrays and Objects
+- Only use `let` if you can't use `const`
+- Only use `var` if you MUST support old browsers  
