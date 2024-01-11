@@ -25,4 +25,10 @@ Denoted by:
 - `const`  
 Values are asigned using `=` sign.  
 
-
+# JavaScript Identifiers / Names
+Are used to name variables, keywords and functions.  
+They follow the following rules:  
+A JS name must begin with:
+- A leter (A - Z or a - z)
+- A dollar sign ($)
+- Underscore (_)
