@@ -32,7 +32,8 @@ They follow the following rules:
 A JS name must begin with:
 - A leter (A - Z or a - z)
 - A dollar sign ($)
-- Underscore (_)  
+- Underscore (_)
+
 DO NOT USE `RESERVED words` like `JS keywords` as names.
 
 # Variables
