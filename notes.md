@@ -42,4 +42,4 @@ When to use `var`, `let`, or `const`?:
 - Always use `const` if the value is not to be changed
 - Always use `const` if the type is not to be changed - Arrays and Objects
 - Only use `let` if you can't use `const`
-- Only use `var` if you MUST support old browsers  
+- Only use `var` if you MUST support old browsers.
