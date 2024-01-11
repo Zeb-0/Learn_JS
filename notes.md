@@ -22,7 +22,8 @@ Store data values
 Denoted by:
 - `var`
 - `let`
-- `const`  
+- `const`
+
 Values are asigned using `=` sign.  
 
 # JavaScript Identifiers / Names
