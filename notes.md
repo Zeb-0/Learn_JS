@@ -43,3 +43,13 @@ When to use `var`, `let`, or `const`?:
 - Always use `const` if the type is not to be changed - Arrays and Objects
 - Only use `let` if you can't use `const`
 - Only use `var` if you MUST support old browsers.
+
+# Strings
+
+## Extracting String Characters
+There are 4 methods:
+1. The `at(position)`
+2. The `charAt(position)`
+3. The `charCode(position)`
+4. Using property access [] like in arrays
+
