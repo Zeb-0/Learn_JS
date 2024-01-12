@@ -59,3 +59,14 @@ Was introduced by `ES2022`.
 - The `at()` method returns the same as `charAt()`.
 - The `at()` method is supported in all modern browsers since March 2022:
 
+## Extracting String parts
+* `slice(start, end)`
+* `substring(start, end)`
+* `substr(start, length)`
+
+### JS String slice()
+`slice()` extracts a part of a string and returns the extracted part in a new string.  
+Takes 2 params:
+- start position
+- end position (not included)
+
