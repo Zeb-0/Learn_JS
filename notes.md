@@ -49,7 +49,13 @@ When to use `var`, `let`, or `const`?:
 ## Extracting String Characters
 There are 4 methods:
 1. The `at(position)`
-2. The `charAt(position)`
+2. The `charAt(position)` - returns uTF-16 code for the character at specified index.
 3. The `charCode(position)`
 4. Using property access [] like in arrays
+
+## String at()
+Was introduced by `ES2022`.
+- The `at()` method returns the character at a specified index (position) in a string.
+- The `at()` method returns the same as `charAt()`.
+- The `at()` method is supported in all modern browsers since March 2022:
 
