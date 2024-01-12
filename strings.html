@@ -8,8 +8,11 @@
 
         <script>
             var text = 'HELLO WORLD';
-            document.getElementById('demo').innerHTML = text.charAt(1);
+            let i = 0;
+            for(i = 0; i <= text.length; i++) {
+                document.getElementById('demo').innerHTML = text.charAt(text[i]);
+            }
         </script>
-        
+
     </body>
 </html>
