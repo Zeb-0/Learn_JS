@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            body {
+                margin: auto;
+                color: burlywood;
+            }
+            h1, h2 {color: Beige;}
+            p {color: gray}
+        </style>
+    </head>
     <body>
         <h1>JavaScript Strings</h1>
         <h2>The charAt() method</h2>
@@ -8,10 +18,13 @@
 
         <script>
             var text = 'HELLO WORLD';
+            let result = '';
             let i = 0;
             for(i = 0; i <= text.length; i++) {
-                document.getElementById('demo').innerHTML = text.charAt(text[i]);
+                result += text.charAt(i) + '<br>';
             }
+            document.getElementById('demo').innerHTML = result;
+
         </script>
 
     </body>
