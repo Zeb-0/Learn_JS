@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <h2>Looping an Array in JavaScript</h2>
+
+  <p id="demo"></p>
+
+  <script>
+    const fruits = ['Banana', 'Orange', 'apple', 'mango', 'peach', 'lemon', 'jackfruit'];
+    let fLen = fruits.length;
+
+    let txt = '<ul>';
+    for (let i = 0; i < fLen; i++) {
+      txt += '<li>' + fruits[i] + '</li>';
+    }
+    txt += '</ul>';
+
+    document.getElementById("demo").innerHTML = txt;
+  </script>
+
+  <h2>Use Array.forEach() function</h2>
+  <p>Call each array element using the forEach() function</p>
+  <p>Display a sorted and Reversed list</p>
+
+  <p id="foreach"></p>
+
+  <script>
+    const Fruits = ['Banana', 'Orange', 'apple', 'mango', 'peach', 'lemon', 'jackfruit'];
+    let text = '<ul>';
+    Fruits.forEach(myFunction);
+    text += '</ul>';
+
+    document.getElementById("foreach").innerHTML = text;
+
+    // Sorting the array and displaying
+    const sortedFruits = Fruits.slice().sort();
+    document.getElementById('foreach').innerHTML = '<p>Sorted:</p>' + generateList(sortedFruits);
+
+    // Reversing the array and displaying
+    const reversedFruits = Fruits.slice().reverse();
+    document.getElementById('foreach').innerHTML += '<p>Reversed:</p>' + generateList(reversedFruits);
+
+    function myFunction(value) {
+      text += '<li>' + value + '</li>';
+    }
+
+    function generateList(arr) {
+      let result = '<ul>';
+      for (let i = 0; i < arr.length; i++) {
+        result += '<li>' + arr[i] + '</li>';
+      }
+      result += '</ul>';
+      return result;
+    }
+  </script>
+
+</body>
+
+</html>
