@@ -70,3 +70,12 @@ Takes 2 params:
 - start position
 - end position (not included)
 
+## String Templates
+Are a feature that allows one to embed expressions or variables within strings. Makes it easier to create dynamic and readble strings.  
+In JavaScript you can use template literals:  
+```
+let name = 'John';
+let age = 27;
+let sentence = `My name is ${name} and I am ${age} years old.`;
+console.log(sentence);
+```
