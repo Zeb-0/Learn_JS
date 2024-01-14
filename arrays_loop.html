@@ -17,6 +17,24 @@
 
             document.getElementById("demo").innerHTML = txt;
         </script>
+
+        <h2>Use Array.foreach() function</h2>
+        <p>Call each array element using the forEach() function</p>
         
+        <p id="foreach"></p>
+
+        <script>
+            const Fruits = ['Banana', 'Orange', 'apple', 'mango', 'peach', 'lemon', 'jackfruit'];
+            let text = '<ul>';
+            Fruits.forEach(myFunction);
+            text += '</ul>';
+
+            document.getElementById("foreach").innerHTML = text;
+
+            function myFunction(value) {
+                text += '<li>' + value + '</li>';
+            }
+        </script>
+
     </body>
 </html>
