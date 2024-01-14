@@ -20,14 +20,22 @@
         <h2>Makes Use of back-ticks</h2>
 
         <p>With back-ticks you can use both single and double quotes inside a string</p>
+        <p>You can also use multilie strings</p>
 
         <p id="demo"></p>
+        <p id="multiline"></p>
 
         <script>
             let name = 'John';
             let age = 27;
+            let text = `The quick
+            brown fox
+            chased the owrner's
+            chicken and ate them.`;
             let dsentence = `His "name" is ${name} and he is ${age} 'years' old.`;
+            
             document.getElementById("demo").innerHTML = dsentence;
+            document.getElementById("multiline").innerHTML = text;
         </script>
 
     </body>
