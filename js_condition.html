@@ -5,7 +5,8 @@
         <h1>JavaScript Comparison</h1>
         <h2>The () ? : ternary operator</h2>
         <p>It assigns a value to a variable based on some given condition</p>
-        <p>Input age : </p>
+        
+        <p>Enter age : </p>
 
         <input id="age" value="18">
 
@@ -19,9 +20,8 @@
                 let age = Nummber(document.getElementById('age').value);
                 if (isNaN(age)) {
                     voteable = 'Please enter a valid Number.';
-                }
-                else {
-                    voteable = (age < 18) ? 'Too young':'Old enough'
+                } else {
+                    voteable = (age < 18) ? 'Too young' : 'Old enough';
                 }
                 document.getElementById("demo").innerHTML = voteable + ' to vote.';
             }
