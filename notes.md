@@ -81,3 +81,6 @@ console.log(sentence);
 ```
 
 ## Date
+Makes the use of `new Date()` method
+- Date objects created using `new Date()` method without args. are static - the 'clock' is not running
+- The comp. clock is ticking, the date objects are not
