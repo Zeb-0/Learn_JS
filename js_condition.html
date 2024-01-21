@@ -15,8 +15,14 @@
 
         <script>
             function myFunction() {
-                let age = document.getElementById('age').value;
-                let voteable = (age < 18) ? 'Too young':'Old enough';
+                let voteable;
+                let age = Nummber(document.getElementById('age').value);
+                if (isNaN(age)) {
+                    voteable = 'Please enter a valid Number.';
+                }
+                else {
+                    voteable = (age < 18) ? 'Too young':'Old enough'
+                }
                 document.getElementById("demo").innerHTML = voteable + ' to vote.';
             }
         </script>
