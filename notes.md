@@ -115,3 +115,8 @@ Now the time is: 1705834513267 milliseconds past January 01, 1970
 
 ### new Date(milliseconds)
 `new Date(,illiseconds)` creates a new date object as milliseconds + zero time
+
+## Conditional (Ternary Opertors)
+Is a conditional operator that assigns a value to a variable based on some condition.
+**Syntax:**
+- `variable name = (condition) ? value1:value2`
