@@ -91,9 +91,27 @@ Makes the use of `new Date()` method
     * new Date()
     * new Date(date string)
     * new Date(year,month)
-    * new Date(year,month,day)
+    * new Date(year,month,day) - Specified date and time.
     * new Date(year,month,day,hours)
     * new Date(year,month,day,hours,minutes)
     * new Date(year,month,day,hours,minutes,seconds)
     * new Date(year,month,day,hours,minutes,seconds,ms)
     * new Date(milliseconds)
+### Note
+- JS months count from `0 - 11` -> 0 is Jan and 11 is Dec.
+- Supplying one parameter in args. is treated as milliseconds -> `new Date(2024)`
+- One and 2-digit years is treated as `19th century`
+
+### JavaScript Stores Dates as Milliseconds
+```
+JavaScript stores dates as number of milliseconds since January 01, 1970.
+
+Zero time is January 01, 1970 00:00:00 UTC.
+
+One day (24 hours) is 86 400 000 milliseconds.
+
+Now the time is: 1705834513267 milliseconds past January 01, 1970
+```
+
+### new Date(milliseconds)
+`new Date(,illiseconds)` creates a new date object as milliseconds + zero time
