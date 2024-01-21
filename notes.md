@@ -84,3 +84,16 @@ console.log(sentence);
 Makes the use of `new Date()` method
 - Date objects created using `new Date()` method without args. are static - the 'clock' is not running
 - The comp. clock is ticking, the date objects are not
+
+### Creating Date objects
+-Are creates using `new Date()` constructor
+- There are 9 ways of doing so:
+    * new Date()
+    * new Date(date string)
+    * new Date(year,month)
+    * new Date(year,month,day)
+    * new Date(year,month,day,hours)
+    * new Date(year,month,day,hours,minutes)
+    * new Date(year,month,day,hours,minutes,seconds)
+    * new Date(year,month,day,hours,minutes,seconds,ms)
+    * new Date(milliseconds)
