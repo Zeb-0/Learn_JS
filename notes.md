@@ -161,3 +161,12 @@ for (exp1; exp2; exp3) {
     // code block to be executed
 }
 ```
+
+### For In Loop
+The `for in` statement is used to loop through the properties of an objct.
+**Syntax:**
+```
+for (key in object) {
+  // code block to be executed
+}
+```
