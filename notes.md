@@ -120,3 +120,23 @@ Now the time is: 1705834513267 milliseconds past January 01, 1970
 Is a conditional operator that assigns a value to a variable based on some condition.
 **Syntax:**
 - `variable name = (condition) ? value1:value2`
+
+## Switch
+Used to perfom different actions based on different conditions.
+
+**Syntax:**
+```
+switch (expression) {
+    case a:
+        // code
+        break;      
+    case b:
+        // code
+        break;  
+    case c:
+        // code
+        break;  
+    default:
+        // code block
+}
+```
