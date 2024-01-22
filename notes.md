@@ -145,3 +145,19 @@ switch (expression) {
 - The value of the expression is compared with the values of each case.
 - If there is a match, the associated block of code is executed.
 - If there is no match, the default code block is executed.
+
+## JavaScript For Loops
+**Different kinds of loops**
+- `for` - loops through a block of code a number of times
+- `for/in` - loops through the properties of an object
+- `for/of` - loops through the values of an iterable object
+- `while` - loops through a block of code while a specified condition is true
+- `do/while` - also loops through a block of code while a specified condition is true
+
+### For Loop
+- The `for` statement creates a loop with `3 oprtional` expressions
+```
+for (exp1; exp2; exp3) {
+    // code block to be executed
+}
+```
