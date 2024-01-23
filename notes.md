@@ -262,3 +262,5 @@ Searches a string for a pattern and returns `true` or `false` depending on the r
 Searches a string for a specified pattern and returns the text as an object
 
 ## JavaScript Operator Precedence
+- Describes the order in which operations are performed in arithmetic expression
+- Multiplication (`*`) and division (`/`) have higher precedence than addition (`+`) and subtraction (`-`).
