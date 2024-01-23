@@ -190,3 +190,11 @@ while (condition) {
 ## Do While Loop
 - It executes the code block once
 - Then continues to check if the condition given is met. If true it then will repeat the loop as long as the condition still holds.
+
+**Syntax:**
+```
+do {
+    // code block to execute
+}
+while (condition);
+```
