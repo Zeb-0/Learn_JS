@@ -246,3 +246,13 @@ Brackets are used to find a range of characters
 | n+ | Matches any string that contains at least one n |
 | n* | Matches any string that contains zero or more occurrences of n |
 | n? | Matches any string that contains zero or one occurrences of n |
+
+### Using the RegEx Object
+Is a regular expression object with predefined properties and methods.  
+The methods are: 
+- `test()`
+- `exec()`  
+**Using `test()`**
+Searches a string for a pattern and returns `true` or `false` depending on the result.
+
+** Using `exec()`
