@@ -223,3 +223,11 @@ In JavaScript, regular expressions are often used with the two string methods: `
 | g | Perform a global match (find all) |
 | m | Perform multiline matching |
 | d | Perform start and end matching (New in ES2022) |
+
+### RegEx Patterns
+Brackets are used to find a range of characters
+| Expression | Description | 
+| --- | --- |
+| [abc]	| Find any of the characters between the brackets |
+| [0-9] | Find any of the digits between the brackets |
+| (x|y) | Find any of the alternatives separated with | |
