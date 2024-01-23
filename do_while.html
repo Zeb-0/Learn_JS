@@ -15,7 +15,11 @@
                 nums += '<br>The number is: ' + i;
                 i++;
             }
-            while (i < 21);
+            while (i < 21) {
+                if (nums % 2 == 0) {
+                    nums += 1;
+                }
+            }
 
             document.getElementById("demo").innerHTML = nums;
         </script>
