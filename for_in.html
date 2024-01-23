@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        
+        <h2>JS For In loop</h2>
+        <p>Are used to loop through the properties of an object</p>
+
+        <p id="demo"></p>
+
+        <script>
+            let text = '';
+            let person = {fName : 'Zeberio', lName : 'Morande', Age : 27};
+            for (let x in person) {
+                text += person[x] + ' ';
+            }
+            document.getElementById("demo").innerHTML = text;
+        </script>
+    </body>
+</html>
