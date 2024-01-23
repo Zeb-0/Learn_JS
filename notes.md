@@ -175,3 +175,13 @@ for (key in object) {
 - Do not use `for in` loop over an array if inde is important.
 - The index order is implementation-dependent so you may not access array values in the order you want
 - Use a `for` loop, `for of` loop or `Array.foreach` loop when the order is important.
+
+## While Loop
+This loop executes a block of code as long as the specified block of code is true.
+
+**Synta:**
+```
+while (condition) {
+    // code block
+}
+```
