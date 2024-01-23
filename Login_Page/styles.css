@@ -13,7 +13,7 @@ body {
 
 .username, .pass {
     margin: 10px 0;
-    border: 1px solid bisque;
+    border: None;
     border-radius: 2px;
 }
 
