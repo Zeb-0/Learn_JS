@@ -217,9 +217,8 @@ In JavaScript, regular expressions are often used with the two string methods: `
 - The `replace()` method returns a modified string where the pattern is replaced.
 
 ### Regular Expression modifiers
-| --- | --- |
-
 | Modifier | Description |
+| --- | --- |
 | i | Perform case-insensitive matching |
 | g | Perform a global match (find all) |
 | m | Perform multiline matching |
