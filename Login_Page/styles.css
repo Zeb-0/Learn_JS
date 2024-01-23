@@ -4,7 +4,7 @@ body {
     border: 2px solid rgb(225, 204, 204);
 }
 
-.username {
+.username .pass {
     align-items: center;
     width: fit-content;
     height: 50px;
