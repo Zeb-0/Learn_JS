@@ -185,3 +185,4 @@ while (condition) {
     // code block
 }
 ```
+**ALways remember to increment your variable used in the condition otherwise the loop will never end.
