@@ -179,7 +179,7 @@ for (key in object) {
 ## While Loop
 This loop executes a block of code as long as the specified block of code is true.
 
-**Synta:**
+**Syntax:**
 ```
 while (condition) {
     // code block
@@ -217,9 +217,9 @@ In JavaScript, regular expressions are often used with the two string methods: `
 - The `replace()` method returns a modified string where the pattern is replaced.
 
 ### Regular Expression modifiers
---- | ---|
-Modifier | Description |
-i | Perform case-insensitive matching |
-g | Perform a global match (find all) |
-m | Perform multiline matching |
-d | Perform start and end matching (New in ES2022) |
+| --- | --- |
+| Modifier | Description |
+| i | Perform case-insensitive matching |
+| g | Perform a global match (find all) |
+| m | Perform multiline matching |
+| d | Perform start and end matching (New in ES2022) |
