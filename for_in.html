@@ -9,11 +9,17 @@
 
         <script>
             let text = '';
+            let txt = '';
+            const nums = [12, 345, 56, 2, 78];
             let person = {fName : 'Zeberio', lName : 'Morande', Age : 27};
             for (let x in person) {
                 text += person[x] + ' ';
             }
             document.getElementById("demo").innerHTML = text;
+            for (let i in nums) {
+                txt += nums[i] + '<br>';
+            }
+            document.getElementById("demo").innerHTML = txt;
         </script>
     </body>
 </html>
