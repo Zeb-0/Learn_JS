@@ -210,3 +210,16 @@ Regular expressions can be used to perform all types of text search and text rep
 **Syntax:**
 `/pattern/modifiers;`
 
+### Using String Methods
+In JavaScript, regular expressions are often used with the two string methods: `search()` and `replace()`.
+
+- The `search()` method uses an expression to search for a match, and returns the position of the match.
+- The `replace()` method returns a modified string where the pattern is replaced.
+
+### Regular Expression modifiers
+--- | ---|
+Modifier | Description |
+i | Perform case-insensitive matching |
+g | Perform a global match (find all) |
+m | Perform multiline matching |
+d | Perform start and end matching (New in ES2022) |
