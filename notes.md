@@ -218,6 +218,7 @@ In JavaScript, regular expressions are often used with the two string methods: `
 
 ### Regular Expression modifiers
 | --- | --- |
+
 | Modifier | Description |
 | i | Perform case-insensitive matching |
 | g | Perform a global match (find all) |
