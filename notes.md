@@ -254,8 +254,11 @@ The methods are:
 - `exec()`  
 
 **Using `test()`**
+
 Searches a string for a pattern and returns `true` or `false` depending on the result.
 
 **Using `exec()`**
 
 Searches a string for a specified pattern and returns the text as an object
+
+## JavaScript Operator Precedence
