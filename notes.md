@@ -186,3 +186,7 @@ while (condition) {
 }
 ```
 **ALways remember to increment your variable used in the condition otherwise the loop will never end.
+
+## Do While Loop
+- It executes the code block once
+- Then continues to check if the condition given is met. If true it then will repeat the loop as long as the condition still holds.
