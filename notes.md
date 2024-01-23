@@ -170,3 +170,8 @@ for (key in object) {
   // code block to be executed
 }
 ```
+
+**NB!!**
+- Do not use `for in` loop over an array if inde is important.
+- The index order is implementation-dependent so you may not access array values in the order you want
+- Use a `for` loop, `for of` loop or `Array.foreach` loop when the order is important.
