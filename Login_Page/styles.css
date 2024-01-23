@@ -23,9 +23,12 @@ field {
 }
 
 label {
+    display: flex;
     justify-content: center;
     margin: auto;
     padding: 8px;
+    color: blanchedalmond;
+    font-size: 16px;
 }
 
 #username, #password{
