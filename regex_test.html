@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Regular Expression Methods - test()</h2>
+        <p>test() is used to search a string for a pattern and returns `true` or `False` depending on the result</p>
+        <p>Search for an `e` in the next paragraph</p>
+
+        <p id="p01">The best things n life are free!</p>
+        <p id="demo"></p>
+
+        <script>
+            let txt = document.getElementById("p01").innerHTML;
+            const pattern = /e/;
+            document.getElementById("demo").innerHTML = pattern.test(txt);
+        </script>
+    </body>
+</html>
