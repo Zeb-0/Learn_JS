@@ -14,12 +14,11 @@
             do {
                 nums += '<br>The number is: ' + i;
                 i++;
-            }
-            while (i < 21) {
-                if (nums % 2 == 0) {
-                    nums += 1;
+                if (i % 2 !== 0) {
+                    i += 1;
                 }
             }
+            while (i < 21)
 
             document.getElementById("demo").innerHTML = nums;
         </script>
