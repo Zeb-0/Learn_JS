@@ -6,26 +6,32 @@
 }
 
 body {
-    background-color: #5e4646;
+    background-color: rgb(39, 66, 71);
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 18px;
+}
+
 form {
+    width: 500px;
+    height: 50vh;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     background-color: rgb(50, 80, 86);
-    border: 2px solid rgb(225, 204, 204);
+    border: 1px solid rgb(83, 81, 81);
 }
 
 .username, .pass {
-    margin: 10px 0;
+    margin: 0 auto;
     border: None;
-    border-radius: 2px;
     outline: none;
     -webkit-transition: all .2s;
     transition: all .2s;
@@ -49,31 +55,16 @@ label {
     margin-top: 5px;
     margin-bottom: 10px;
     padding: 8px;
-    width: 200px;
+    width: 100%;
     color: rgb(167, 238, 215);
     background-color: rgb(60, 58, 58);
 }
 
-.sign {
-    display: flex;
-}
-
-#reg, #sign-in {
-    width: 100px;
-    color: blanchedalmond;
-    background-color: rgb(55, 47, 47);
-    font-size: 14px;
-}
-
-button:hover {
-    color: aqua;
-}
-
 .remember-me {
     display: flex;
+    vertical-align: auto;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 2px;
 }
 
 .remember-me label {
@@ -97,4 +88,21 @@ a {
 
 a:hover {
     color: orangered;
+}
+
+.sign {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#reg, #sign-in {
+    width: 90px;
+    color: blanchedalmond;
+    background-color: rgb(55, 47, 47);
+    font-size: 14px;
+}
+
+button:hover {
+    color: aqua;
 }
