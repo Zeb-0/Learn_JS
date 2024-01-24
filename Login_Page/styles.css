@@ -75,7 +75,7 @@ button:hover {
 
 .cancel {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 #cancel {
@@ -83,6 +83,8 @@ button:hover {
     font-size: 16px;
     width: fit-content;
     background-color: rgb(30, 33, 33);
+    justify-content: unset;
+    margin-left: 0;
 }
 
 #cancel:hover {
@@ -91,6 +93,12 @@ button:hover {
 
 a {
     text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    font-size: 14px;
+    display: flex;
+    float: right;
 }
 
 a:hover {
