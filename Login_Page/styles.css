@@ -53,13 +53,3 @@ button {
 button:hover {
     color: aqua;
 }
-
-.remember-me {
-    display: flex;
-    justify-content: center;
-}
-
-#rememberMe {
-    color: red;
-    font-size: 12px;
-}
