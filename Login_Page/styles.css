@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+  }
+
 body {
     margin: 0;
     padding: 0;
@@ -15,6 +22,9 @@ body {
     margin: 10px 0;
     border: None;
     border-radius: 2px;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
 }
 
 field {
@@ -40,14 +50,15 @@ label {
     background-color: rgb(60, 58, 58);
 }
 
-button {
-    width: 220px;
-    height: 30px;
+.sign {
+    display: flex;
+}
+
+#reg, #sign-in {
+    width: 100px;
     color: blanchedalmond;
-    background-color: rgb(60, 58, 58);
-    font-size: 16px;
-    margin-top: 20px;
-    padding-bottom: 2px
+    background-color: rgb(55, 47, 47);
+    font-size: 14px;
 }
 
 button:hover {
@@ -58,47 +69,26 @@ button:hover {
     display: flex;
     align-items: center;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .remember-me label {
     color: blanchedalmond;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .remember-me label:hover{
     color: aquamarine;
 }
 
-#remember {
-    margin-left: 30px;
-}
-
-.cancel {
-    display: flex;
-    justify-content: space-between;
-}
-
-#cancel {
-    color: blanchedalmond;
-    font-size: 16px;
-    width: fit-content;
-    background-color: rgb(30, 33, 33);
-    justify-content: unset;
-    margin-left: 0;
-}
-
-#cancel:hover {
-    color: orangered
-}
-
 a {
     text-decoration: none;
     width: fit-content;
-    height: fit-content;
     border: none;
-    font-size: 14px;
-    display: flex;
-    float: right;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    display: block;
 }
 
 a:hover {
