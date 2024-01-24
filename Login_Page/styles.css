@@ -53,3 +53,23 @@ button {
 button:hover {
     color: aqua;
 }
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.remember-me label {
+    color: azure;
+    font-size: 14px;
+}
+
+.remember-me label:hover{
+    color: aquamarine;
+}
+
+#remember {
+    border-radius: 2px;
+    margin: 0;
+}
