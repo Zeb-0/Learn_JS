@@ -72,3 +72,27 @@ button:hover {
 #remember {
     margin-left: 30px;
 }
+
+.cancel {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#cancel {
+    color: blanchedalmond;
+    font-size: 16px;
+    width: fit-content;
+    background-color: rgb(30, 33, 33);
+}
+
+#cancel:hover {
+    color: orangered
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+}
