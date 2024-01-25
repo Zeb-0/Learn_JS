@@ -356,3 +356,9 @@ URIError | An error in encodeURI() has occurred
 
 ## JS strict
 - [JS Strict](https://www.w3schools.com/js/js_strict.asp)
+
+## Js `this` keyword
+- [Reference](https://www.w3schools.com/js/js_this.asp)
+
+## JavaScript Arrow Functions
+Allow us to write shorter functions syntax
