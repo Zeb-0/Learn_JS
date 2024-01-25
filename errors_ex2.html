@@ -16,12 +16,12 @@
                 let x = document.getElementById("demo").value;
                 try {
                     if (x.trim() == '') throw "empty";
-                    if(isNaN()) throw "is not a number";
+                    if(isNaN(x)) throw "is not a number";
                     x = Number(x);
                     if (x < 5) throw "too low";
                     if (x > 10) throw "too high";
                 }
-                catch {
+                catch(err) {
                     message.innerHTML = "Input is " + err;
                 }
             }
