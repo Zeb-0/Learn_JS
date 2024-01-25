@@ -362,3 +362,5 @@ URIError | An error in encodeURI() has occurred
 
 ## JavaScript Arrow Functions
 Allow us to write shorter functions syntax
+
+Arrow functions become even shorter if the function has a single statement.
