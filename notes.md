@@ -346,3 +346,10 @@ ReferenceError | An illegal reference has occurred
 SyntaxError | A syntax error has occurred
 TypeError | A type error has occurred
 URIError | An error in encodeURI() has occurred
+
+## JavaScript Scope
+**Read on:**
+- [JS Scope](https://www.w3schools.com/js/js_scope.asp)
+
+## JS Hoisting
+- [Reference](https://www.w3schools.com/js/js_hoisting.asp)
