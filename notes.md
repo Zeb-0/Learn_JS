@@ -353,3 +353,6 @@ URIError | An error in encodeURI() has occurred
 
 ## JS Hoisting
 - [Reference](https://www.w3schools.com/js/js_hoisting.asp)
+
+## JS strict
+- [JS Strict](https://www.w3schools.com/js/js_strict.asp)
