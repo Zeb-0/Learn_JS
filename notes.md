@@ -309,7 +309,8 @@ Technically you can `throw an exception` (throw an error).
 The exception can be a JavaScript `String`, a `Number`, a `Boolean` or an `Object`:
 
 ### The finally Statement
-The finally statement lets you execute code, after try and catch, regardless of the result:  
+The finally statement lets you execute code, after try and catch, regardless of the result:
+
 **Syntax:**
 ```
 try {
