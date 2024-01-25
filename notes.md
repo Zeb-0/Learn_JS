@@ -264,3 +264,10 @@ Searches a string for a specified pattern and returns the text as an object
 ## JavaScript Operator Precedence
 - Describes the order in which operations are performed in arithmetic expression
 - Multiplication (`*`) and division (`/`) have higher precedence than addition (`+`) and subtraction (`-`).
+
+### Operator Precedence Values
+- Expressions in parentheses are computed before the rest of the expression
+- Function are executed before the result is used in the rest of the expression
+
+For Full referece check out -> [JavaScript Operator Precedence](https://www.w3schools.com/js/js_precedence.asp).
+
