@@ -322,3 +322,7 @@ finally {
   Block of code to be executed regardless of the try / catch result
 }
 ```
+
+### The Error Object
+JavaScript has a built in error object that provides error information when an error occurs.  
+The error object provides two useful properties: name and message.
