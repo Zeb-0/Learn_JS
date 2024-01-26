@@ -16,7 +16,7 @@ h1 {
     font-size: 18px;
 }
 
-form {
+.gen {
     max-width: 600px;
     height: 70vh;
     margin: 0 auto;
