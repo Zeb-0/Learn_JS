@@ -14,10 +14,8 @@ const person = {
 for (let i in person.cars) {
     x += person.cars[i].name;
     for (let j in person.cars[i].models) {
-        x += person.cars[i].models[j];
+        x += person.cars[i].models[j] + '<br>';
     }
 }
-
-document.getElementById("demo").innerHTML = x;
 
 export default person;
