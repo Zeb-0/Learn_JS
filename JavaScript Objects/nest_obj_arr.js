@@ -12,10 +12,10 @@ const person = {
 }
 
 for (let i in person.cars) {
-    x += person.cars[i].name;
+    x += '<h2>' + person.cars[i].name + '<h2>';
     for (let j in person.cars[i].models) {
         x += person.cars[i].models[j] + '<br>';
     }
 }
 
-export default person;
+export default x;
