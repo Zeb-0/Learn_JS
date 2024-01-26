@@ -55,3 +55,14 @@ JavaScript variables can contain single values:
 JavaScript variables can also contain many values.  
 Objects are variables too. But objects can contain many values.  
 Object values are written as name : value pairs (name and value separated by a colon).
+
+## Object Methods
+Methods are actions that can be performed on objects.  
+Object properties can be both primitive values, other objects, and functions.  
+An object method is an object property containing a function definition.
+
+## JS Object Properties
+### JavaScript Properties
+Properties are the values associated with a JavaScript object.  
+A JavaScript object is a collection of unordered properties.  
+Properties can usually be changed, added, and deleted, but some are read only.
