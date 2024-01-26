@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>Define and use a class</h2>
+        <p>Create a class method named 'Age' that returns the car age.</p>
+
+        <p id="demo"></p>
+
+        <script>
+            class Car {
+                constructor (name, year) {
+                    this.name = name;
+                    this.year = year;
+                }
+
+                age() {
+                    const date = new Date();
+                    return date.getFullYear() - this.year;
+                }
+            }
+
+            // create the car object:
+            const myCar = new Car('Audi', 2020);
+            // display the car and it's age:
+            document.getElementById("demo").innerHTML = "My car is "+ myCar.name + " and it is " + myCar.age() + " years old."
+        </script>
+
+    </body>
+</html>
