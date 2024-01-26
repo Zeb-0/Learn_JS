@@ -381,3 +381,17 @@ Both examples call a method twice, first when the page loads, and once again whe
 The first example uses a regular function, and the second example uses an arrow function.
 
 The result shows that the first example returns two different objects (window and button), and the second example returns the window object twice, because the window object is the "owner" of the function.
+
+## JavaScript Classes
+These are templates for JS objects
+
+### JavaScript Class Syntax
+Use the keyword `class` to create a class.  
+Always add a method named `constructor()`:
+
+**Syntax:**
+```
+class ClassName {
+  constructor() { ... }
+}
+```

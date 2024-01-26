@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>JS classes are templates for js objcts</h2>
+        <p>create two car objects using Car class:</p>
+
+        <p id="demo"></p>
+
+        <script>
+            class Car {
+                constructor (name, year) {
+                    this.name = name;
+                    this.year = year;
+                }
+            }
+            const myCar1 = new Car('Audi', 2023);
+            const myCar2 = new Car('Mustang', 2022);
+
+            document.getElementById("demo").innerHTML = myCar1.name + ' -> ' + myCar1.year;
+        </script>
+        
+    </body>
+</html>
