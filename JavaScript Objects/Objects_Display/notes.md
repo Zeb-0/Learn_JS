@@ -91,3 +91,19 @@ const person = {
 let myString = JSON.stringify(person);
 document.getElementById("demo").innerHTML = myString;
 ```
+
+### Stringify Dates
+JSON.stringify converts dates into strings:
+```
+Example
+const person = {
+  name: "John",
+  today: new Date()
+};
+
+let myString = JSON.stringify(person);
+document.getElementById("demo").innerHTML = myString;
+```
+
+## NB!
+`JSON.stringify()` cannot stringify functions
