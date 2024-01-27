@@ -1,0 +1,1 @@
+Displaying a JS Object will result in `[object Object]`
