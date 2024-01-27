@@ -38,3 +38,30 @@ txt += person[x] + " ";
 
 document.getElementById("demo").innerHTML = txt;
 ```
+
+### Using Object.values()
+Any JavaScript object can be converted to an array using `Object.values()`:
+
+```
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+const myArray = Object.values(person);
+```
+
+`myArray` is now a JavaScript array, ready to be displayed:
+
+***Example:***
+```
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+const myArray = Object.values(person);
+document.getElementById("demo").innerHTML = myArray;
+```
