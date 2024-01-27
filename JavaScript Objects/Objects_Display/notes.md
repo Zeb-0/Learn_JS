@@ -65,3 +65,29 @@ const person = {
 const myArray = Object.values(person);
 document.getElementById("demo").innerHTML = myArray;
 ```
+
+### Using JSON.stringify()
+Any JavaScript object can be stringified (converted to a string) with the JavaScript function `JSON.stringify()`:
+```
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+let myString = JSON.stringify(person);
+```
+`myString` is now a JavaScript string, ready to be displayed:
+
+
+```
+Example
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+let myString = JSON.stringify(person);
+document.getElementById("demo").innerHTML = myString;
+```
