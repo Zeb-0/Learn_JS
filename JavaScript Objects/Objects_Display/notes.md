@@ -106,4 +106,16 @@ document.getElementById("demo").innerHTML = myString;
 ```
 
 ## NB!
-`JSON.stringify()` cannot stringify functions
+`JSON.stringify()` cannot stringify functions.
+
+Only possible if you convert the function into a string first. See below:
+```
+const person = {
+  name: "John",
+  age: function () {return 30;}
+};
+person.age = person.age.toString();
+
+let myString = JSON.stringify(person);
+document.getElementById("demo").innerHTML = myString;
+```
