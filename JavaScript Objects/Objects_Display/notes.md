@@ -119,3 +119,15 @@ person.age = person.age.toString();
 let myString = JSON.stringify(person);
 document.getElementById("demo").innerHTML = myString;
 ```
+
+
+### Stringify Arrays
+It is also possible to stringify JavaScript arrays:
+
+***Example:***
+```
+const arr = ["John", "Peter", "Sally", "Jane"];
+
+let myString = JSON.stringify(arr);
+document.getElementById("demo").innerHTML = myString;
+```
