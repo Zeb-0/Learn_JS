@@ -13,7 +13,7 @@ body {
 #game {
     max-width: 500px;
     max-height: 400px;
-    background-color: #ffffff;;
+    background-color: #ffffff;
     color: #ffffff;
     margin-top: 30px;
     margin-left: auto;
@@ -26,4 +26,11 @@ body {
     border: 1px solid #0a0a23;
     color: #0a0a23;
     padding: 5px;
+}
+
+#mosterStats {
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c70d0d;
 }
