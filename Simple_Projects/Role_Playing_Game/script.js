@@ -33,3 +33,7 @@ function goCave() {
 function fightDragon() {
     console.log('Fighting dragon.');
 }
+
+// initialize buttons
+
+button1.onclick = goStore;
