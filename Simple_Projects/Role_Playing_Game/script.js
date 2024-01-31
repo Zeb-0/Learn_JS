@@ -23,9 +23,9 @@ const monsterHealthText = document.querySelector('#monsterHealth');
 // functions
 
 function goStore() {
-    button1.innerText = buyHealth;
-    button2.innerText = buyWeapon;
-    button3.innerText = goTown;
+    button1.onclick = buyHealth;
+    button2.onclick = buyWeapon;
+    button3.onclick = goTown;
 }
 
 function goCave() {
