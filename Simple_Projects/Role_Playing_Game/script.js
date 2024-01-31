@@ -46,7 +46,9 @@ function update(location) {
     text.innerText = 'You are in the town square. You see a sign that says "Store".';
 }
 
-function goTown() {}
+function goTown() {
+    update(location);
+}
 
 function goStore() {}
 
