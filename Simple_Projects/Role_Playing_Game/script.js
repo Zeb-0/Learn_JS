@@ -21,7 +21,8 @@ const monsterName = document.querySelector('#monsterName');
 const monsterHealthText = document.querySelector('#monsterHealth');
 const locations = [
     {
-        name : "towm square"
+        name : "towm square",
+        "button text" : ["Go to store", "Go to cave", "Fight dragon"]
     }
 ];
 
