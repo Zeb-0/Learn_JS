@@ -144,3 +144,6 @@ function fightDragon() {
 }
 
 function goFight() {}
+
+function atttack() {}
+function dogde() {}
