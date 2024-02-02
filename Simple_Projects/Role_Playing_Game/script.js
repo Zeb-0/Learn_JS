@@ -108,6 +108,13 @@ function buyWeapon() {
     }
 }
 
+function sellWeapon() {
+    if (inventory.length > 1) {
+        gold += 15;
+        gold.innerText = gold;
+    }
+}
+
 function fightSlime() {}
 
 function fightBeast() {}
