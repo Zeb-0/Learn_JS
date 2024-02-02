@@ -73,8 +73,8 @@ function goStore() {
     update(locations[1]);
 }
 
-function fightDragon() {
-    console.log('Fighting dragon.');
+function goCave() {
+    update(locations[2]);
 }
 
 function buyHealth() {
@@ -123,13 +123,18 @@ function sellWeapon() {
     }
 }
 
-function goCave() {
-    update(locations[2]);
+function fightSlime() {
+    fighting = 0;
+    goFight();
 }
 
-function fightSlime() {}
-
 function fightBeast() {}
+
+function fightDragon() {
+    console.log('Fighting dragon.');
+}
+
+function goFight() {}
 
 // initialize buttons
 button1.onclick = goStore;
