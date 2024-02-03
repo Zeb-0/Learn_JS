@@ -263,7 +263,12 @@ function easterEgg() {
     update(locations[7]);
 }
 
-function pick(guess) {}
+function pick(guess) {
+    const numbers = [];
+    while (numbers.length < 10) {
+        numbers.push(Math.floor(Math.random() * 11));
+    }
+}
 
 function pickTwo() {
     pick(2);
