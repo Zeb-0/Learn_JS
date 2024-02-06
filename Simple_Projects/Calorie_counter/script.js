@@ -10,4 +10,6 @@ const output = document.getElementById("output");
 let isError = false;
 
 // Functions:
-function cleanInputString(str) {}
+function cleanInputString(str) {
+    const strArray = str.split();
+}
