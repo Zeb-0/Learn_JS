@@ -12,4 +12,5 @@ let isError = false;
 // Functions:
 function cleanInputString(str) {
     const strArray = str.split();
+    const cleanStrArray = [];
 }
