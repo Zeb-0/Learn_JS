@@ -89,9 +89,7 @@ function clearForm() {
     for (const container of inputContainers) {
         container.innerHTML = '';
     }
-    for (const container of budgetNumberInput) {
-        budgetNumberInput.value = '';
-    }
+    budgetNumberInput.value = '';
 }
 
 // Event listeners
