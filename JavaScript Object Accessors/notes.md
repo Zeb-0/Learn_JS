@@ -46,7 +46,7 @@ document.getElementById("demo").innerHTML = person.language;
 ## JavaScript Function or Getter?
 What is the differences between these two examples?
 
-**Example 1:**
+***Example 1:***
 ```
 const person = {
   firstName: "John",
@@ -60,7 +60,7 @@ const person = {
 document.getElementById("demo").innerHTML = person.fullName();
 ```
 
-**Example 2:**
+***Example 2:***
 ```
 const person = {
   firstName: "John",
@@ -83,7 +83,7 @@ document.getElementById("demo").innerHTML = person.fullName;
 JavaScript can secure better data quality when using getters and setters.  
 Using the `lang` property, in this example, returns the value of the language property in upper case:
 
-**Example:**
+***Example:***
 ```
 // Create an object:
 const person = {
@@ -101,7 +101,7 @@ document.getElementById("demo").innerHTML = person.lang;
 
 **Using the `lang` property, in this example, stores an upper case value in the language property:**
 
-**Example:**
+***Example:***
 ```
 const person = {
   firstName: "John",
