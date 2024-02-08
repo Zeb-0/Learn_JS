@@ -31,8 +31,6 @@ function addEntry() {
     targetInputContainer.insertAdjacentHTML("beforeend", HTMLString);
 }
 
-addEntryButton.addEventListener("click", addEntry);
-
 function getCaloriesFromInputs(list) {
     let calories = 0;
     for (let i = 0; i < list.length; i++) {
@@ -81,4 +79,10 @@ function calculateCalories(e) {
     <p>${consumedCalories} Calories Consumed</p>
     <p>${exerciseCalories} Calories Burned</p>
     `;
+
+    output.classList.remove('hide');
 }
+
+// Event listeners
+addEntryButton.addEventListener("click", addEntry);
+calorieCounter.addEventListener("submit", calculateCalories);
