@@ -124,3 +124,36 @@ It gives simpler syntax
 It allows equal syntax for properties and methods
 It can secure better data quality
 It is useful for doing things behind-the-scenes
+
+## Object.defineProperty()
+The `Object.defineProperty()` method can also be used to add `Getters` and `Setters`:
+
+***A Counter Example:***
+```
+// Define object
+const obj = {counter : 0};
+
+// Define setters and getters
+Object.defineProperty(obj, "reset", {
+  get : function () {this.counter = 0;}
+});
+Object.defineProperty(obj, "increment", {
+  get : function () {this.counter++;}
+});
+Object.defineProperty(obj, "decrement", {
+  get : function () {this.counter--;}
+});
+Object.defineProperty(obj, "add", {
+  set : function (value) {this.counter += value;}
+});
+Object.defineProperty(obj, "subtract", {
+  set : function (value) {this.counter -= value;}
+});
+
+// Play with the counter:
+obj.reset;
+obj.add = 5;
+obj.subtract = 1;
+obj.increment;
+obj.decrement;
+```
