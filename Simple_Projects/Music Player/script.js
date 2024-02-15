@@ -60,4 +60,5 @@ const renderSongs = (array) => {
     playlistSongs.innerHTML = songsHTML;
 };
 
+userData?.songs.sort();
 renderSongs(userData?.songs);
