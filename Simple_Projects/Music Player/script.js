@@ -17,7 +17,7 @@ const allSongs = [
     },
 
     {
-        'id': 1,
+        id: 1,
         'title': "Can't Stay Down",
         'artist': 'Quincy Larson',
         'duration': '4:15',
@@ -34,6 +34,6 @@ const allSongs = [
 ];
 
 
-// Music functions:
+const audio = new Audio();
 
-const audio = new Audio()
+let userData = {songs: [...allSongs]};
