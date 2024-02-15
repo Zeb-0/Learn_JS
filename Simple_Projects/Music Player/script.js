@@ -11,8 +11,8 @@ const allSongs = [
     {
         'id': 0,
         'title': 'Scratching The Surface',
-        'Artist': 'Quincy Larson',
-        'duration': '4.25',
+        'artist': 'Quincy Larson',
+        'duration': '4:25',
         'src': 'https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/scratching-the-surface.mp3'
     }
 ];
