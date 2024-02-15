@@ -32,3 +32,8 @@ const allSongs = [
         src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/still-learning.mp3",
     }
 ];
+
+
+// Music functions:
+
+const audio = new Audio()
