@@ -33,7 +33,6 @@ const allSongs = [
 
 
 const audio = new Audio();
-const songsHTML = array.map();
 
 let userData = {songs: [...allSongs],
 currentSong: null,
@@ -43,3 +42,4 @@ songCurrentTime: 0};
 // Functions:
 
 const renderSongs = (array) => {};
+const songsHTML = array.map((songs) => {});
