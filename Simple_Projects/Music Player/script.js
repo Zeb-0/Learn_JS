@@ -43,5 +43,5 @@ songCurrentTime: 0};
 
 const renderSongs = (array) => {};
 const songsHTML = array.map((songs) => {
-    return `<li id='song-${song.id}' class='playlist-song'`}
+    return `<li id='song-${song.id}' class='playlist-song'</li>`}
 );
