@@ -41,4 +41,4 @@ songCurrentTime: 0};
 
 // Functions:
 
-renderSongs = (array) => {};
+const renderSongs = (array) => {};
