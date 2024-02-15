@@ -8,3 +8,6 @@
 ## join()
 - ~ method is used to concatenate all the elements of an array into a single etring.
 - takes an optional parameter called a separator used to separate the array elements.
+
+## sort()
+- a method that converts an array into strings and sorts them into place based on their values in the `utf-16` encording.
