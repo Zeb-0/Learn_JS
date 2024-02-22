@@ -70,3 +70,5 @@ userData?.songs.sort((a, b) => {
     return 0;
 });
 renderSongs(userData?.songs);
+
+const playSong = (id) => {};
