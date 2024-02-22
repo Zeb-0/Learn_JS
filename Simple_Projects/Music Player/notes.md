@@ -15,3 +15,12 @@
 ## find()
 - used to retrieve the first element withn an array that fulfills the conditions specified by the callback function
 - returns `undefined` if no element satisfies the condition
+
+- In the example below, the find() method is used to find the first number greater than 25:
+```
+const numbers = [10, 20, 30, 40, 50];
+
+// Find the first number greater than 25
+const foundNumber = numbers.find((number) => number > 25);
+console.log(foundNumber); // Output: 30
+```
