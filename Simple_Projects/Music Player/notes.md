@@ -11,3 +11,7 @@
 
 ## sort()
 - a method that converts an array into strings and sorts them into place based on their values in the `utf-16` encording.
+
+## find()
+- used to retrieve the first element withn an array that fulfills the conditions specified by the callback function
+- returns `undefined` if no element satisfies the condition
