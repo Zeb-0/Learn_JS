@@ -69,7 +69,7 @@ userData?.songs.sort((a, b) => {
     }
     return 0;
 });
-renderSongs(userData?.songs);
+renderSongs(sortSongs());
 
 const playSong = (id) => {
     const song = userData?.songs.find((song) => song.id ===id);
