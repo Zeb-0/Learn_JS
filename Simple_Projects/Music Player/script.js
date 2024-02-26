@@ -72,5 +72,5 @@ userData?.songs.sort((a, b) => {
 renderSongs(userData?.songs);
 
 const playSong = (id) => {
-    const song = find(userData?.songs)
+    const song = userData?.songs.find((song) => song.id ===id);
 };
