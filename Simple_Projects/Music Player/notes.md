@@ -1,4 +1,4 @@
-# some usefjl gunctions.
+# some useful gunctions.
 
 ## map() function
 - Used to iterate through an `array` and return a new `array`.
