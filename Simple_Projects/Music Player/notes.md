@@ -6,6 +6,10 @@
 
 ## callback function
 - A function passed to another function as an argument.
+***example:***
+```
+const playsong = ((song) => {});
+```
 
 ## join()
 - ~ method is used to concatenate all the elements of an array into a single etring.
