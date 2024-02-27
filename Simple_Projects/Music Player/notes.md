@@ -1,4 +1,4 @@
-# some useful gunctions.
+# some useful functions.
 
 ## map() function
 - Used to iterate through an `array` and return a new `array`.
