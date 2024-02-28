@@ -138,8 +138,8 @@ const playPreviousSong = () => {
 
 // display current song title and artist
 const setPlayerDisplay = () => {
-  const playingSong = document.getElementById('#player-song-title');
-  const songArtist = document.getElementById('#player-song-artist');
+  const playingSong = document.getElementById('player-song-title');
+  const songArtist = document.getElementById('player-song-artist');
 };
 
 
