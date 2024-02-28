@@ -109,10 +109,10 @@ const playSong = (id) => {
 };
 
 const pauseSong = () => {
-    userData.songCurrentTime = audio.currentTime;
-    playButton.classList.remove('playing');
+  userData.songCurrentTime = audio.currentTime;
+  playButton.classList.remove('playing');
 
-    audio.pause();
+  audio.pause();
 };
 
 const playNextSong = () => {
@@ -186,6 +186,8 @@ const renderSongs = (array) => {
   
     playlistSongs.innerHTML = songsHTML;
 };
+
+const setPlayButtonAccessibleText = () => {};
 
 const getCurrentSongIndex = () => userData?.songs.indexOf(userData?.currentSong);
 
