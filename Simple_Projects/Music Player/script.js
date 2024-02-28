@@ -137,7 +137,12 @@ const playPreviousSong = () => {
 };
 
 // display current song title and artist
-const setPlayerDisplay = () => {};
+const setPlayerDisplay = () => {
+  const playingSong = document.getElementById('#player-song-title');
+  const songArtist = document.getElementById('#player-song-artist');
+};
+
+
 const highlightCurrentSong = () => {
   const playlistSongElements = document.querySelectorAll('.playlist-song');
 
