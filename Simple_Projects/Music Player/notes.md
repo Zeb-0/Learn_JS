@@ -41,3 +41,5 @@ console.log(foundNumber); // Output: 30
 - is a DOM method used to dynamically create an element using JavaScript
 - **Usage & Syntax:**
     - `document.createElement(tagName)`
+- You can also assign it to a variable
+    * `const divElement = document.createElement('div')`
