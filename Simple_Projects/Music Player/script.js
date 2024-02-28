@@ -135,6 +135,10 @@ const playPreviousSong = () => {
   }
 };
 
+const highlightCurrentSong = () => {
+  const playlistSongElements = document.querySelectorAll('.playlist-song');
+};
+
 // Event Listeners:
 pauseButton.addEventListener('click', pauseSong);
 nextButton.addEventListener('click', playNextSong);
