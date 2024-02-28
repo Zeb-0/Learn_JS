@@ -90,7 +90,7 @@ const allSongs = [
 
 // Functions:
 const playSong = (id) => {
-    const song = userData?.songs.find((song) => song.id ===id);
+  const song = userData?.songs.find((song) => song.id ===id);
     audio.srs = song.src;
     audio.title = song.title;
 
@@ -100,10 +100,11 @@ const playSong = (id) => {
         audio.currentTime = userData?.songCurrentTime;
     }
 
-    userData.currentSong = song;
-    playButton.classList.add('playing');
+  userData.currentSong = song;
+  playButton.classList.add('playing');
 
-    audio.play();
+  highlightCurrentSong();
+  audio.play();
 };
 
 const pauseSong = () => {
