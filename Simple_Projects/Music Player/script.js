@@ -176,6 +176,7 @@ const highlightCurrentSong = () => {
 pauseButton.addEventListener('click', pauseSong);
 nextButton.addEventListener('click', playNextSong);
 previousButton.addEventListener('click', playPreviousSong);
+shuffleButton.addEventListener('click', shuffle);
 
 const renderSongs = (array) => {
     const songsHTML = array
