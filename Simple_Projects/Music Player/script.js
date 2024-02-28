@@ -138,6 +138,8 @@ const playPreviousSong = () => {
   }
 };
 
+const shuffle = () => {};
+
 // display current song title and artist
 const setPlayerDisplay = () => {
   const playingSong = document.getElementById('player-song-title');
