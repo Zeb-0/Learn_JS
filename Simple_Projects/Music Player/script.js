@@ -231,4 +231,6 @@ const sortSongs = () => {
     return userData?.songs;
 };
 
+const deleteSong = (id) => {};
+
 renderSongs(sortSongs());
