@@ -36,3 +36,8 @@ console.log(foundNumber); // Output: 30
 - if you subtract `0.5` from `Math.random()` you get either positive or negative values.
 - the comparison will yield a mixture of `+` anfd `-` values.
 - Apply this to an array will result in random ordering of elements.
+
+## createElement()
+- is a DOM method used to dynamically create an element using JavaScript
+- **Usage & Syntax:**
+    - `document.createElement(tagName)`
