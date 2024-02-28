@@ -43,3 +43,14 @@ console.log(foundNumber); // Output: 30
     - `document.createElement(tagName)`
 - You can also assign it to a variable
     * `const divElement = document.createElement('div')`
+
+## CreateTextNode()
+- used to create a text node
+- to use it call it and pass in the text as a string
+- can also be assigned to a variable
+
+**Syntax:**
+- `document.createTextNode("your text");`
+
+***Example:***
+- `const myText = document.createTextNode("your text");`
