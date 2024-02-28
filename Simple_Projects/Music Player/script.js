@@ -143,9 +143,7 @@ const highlightCurrentSong = () => {
     songEl.removeAttribute("aria-current");
   });
 
-  if (songToHighlight) {
-    songToHighlight.setAttribute('aria-current', 'true');
-  }
+  if (songToHighlight) songToHighlight.setAttribute('aria-current', 'true');
 };
 
 // Event Listeners:
