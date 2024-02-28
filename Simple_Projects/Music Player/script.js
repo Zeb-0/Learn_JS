@@ -158,6 +158,8 @@ const deleteSong = (id) => {
     setPlayerDisplay();
   }
 
+  if (userData?.songs.length === 0) {}
+
   userData.songs = userData?.songs.filter((song) => song.id !== id);
 
   renderSongs(userData?.songs);
