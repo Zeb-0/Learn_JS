@@ -32,4 +32,7 @@ console.log(foundNumber); // Output: 30
 ```
 
 ## Math.random()
-- used to produce random values
+- used to produce random values.
+- if you subtract `0.5` from `Math.random()` you get either positive or negative values.
+- the comparison will yield a mixture of `+` anfd `-` values.
+- Apply this to an array will result in random ordering of elements.
