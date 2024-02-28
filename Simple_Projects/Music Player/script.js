@@ -135,8 +135,10 @@ const playPreviousSong = () => {
   }
 };
 
+// Event Listeners:
 pauseButton.addEventListener('click', pauseSong);
 nextButton.addEventListener('click', playNextSong);
+previousButton.addEventListener('click', playPreviousSong);
 
 const renderSongs = (array) => {
     const songsHTML = array
