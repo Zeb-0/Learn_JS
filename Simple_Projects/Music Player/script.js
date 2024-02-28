@@ -138,7 +138,9 @@ const playPreviousSong = () => {
   }
 };
 
-const shuffle = () => {};
+const shuffle = () => {
+  return userData?.songs.sort(() => Math.random() - 0.5);
+};
 
 // display current song title and artist
 const setPlayerDisplay = () => {
