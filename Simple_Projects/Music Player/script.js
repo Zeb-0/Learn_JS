@@ -124,6 +124,8 @@ const playNextSong = () => {
   }
 };
 
+const playPreviousSong = () => {};
+
 pauseButton.addEventListener('click', pauseSong);
 nextButton.addEventListener('click', playNextSong);
 
