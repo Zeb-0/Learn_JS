@@ -149,6 +149,10 @@ const shuffle = () => {
   setPlayButtonAccessibleText();
 };
 
+const deleteSong = (id) => {
+  userData.songs = userData?.songs.filter((song) => song.id !== id);
+};
+
 // display current song title and artist
 const setPlayerDisplay = () => {
   const playingSong = document.getElementById('player-song-title');
@@ -231,6 +235,5 @@ const sortSongs = () => {
     return userData?.songs;
 };
 
-const deleteSong = (id) => {};
 
 renderSongs(sortSongs());
