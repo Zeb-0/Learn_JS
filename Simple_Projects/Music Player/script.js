@@ -113,6 +113,8 @@ const pauseSong = () => {
     audio.pause();
 };
 
+const playNextSong = () => {};
+
 pauseButton.addEventListener('click', pauseSong);
 
 const renderSongs = (array) => {
