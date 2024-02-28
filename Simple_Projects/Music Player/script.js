@@ -124,7 +124,13 @@ const playNextSong = () => {
   }
 };
 
-const playPreviousSong = () => {};
+const playPreviousSong = () => {
+  if (userData?.currentSong === null) {
+    return
+  } else {
+    const currentSongIndex = getCurrentSongIndex();
+  }
+};
 
 pauseButton.addEventListener('click', pauseSong);
 nextButton.addEventListener('click', playNextSong);
