@@ -54,3 +54,14 @@ console.log(foundNumber); // Output: 30
 
 ***Example:***
 - `const myText = document.createTextNode("your text");`
+
+## appendChild()
+- let's you add a node or an element as the child of another element.
+- ***Example:***
+    * ```
+    const parentElement = document.createElement("button")
+    const parentElementText = document.createTextNode("Click me")
+
+    // attach the text "Click me" to the button
+    parentElement.appendChild(parentElementText)
+    ```
