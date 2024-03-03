@@ -208,6 +208,8 @@ previousButton.addEventListener('click', playPreviousSong);
 shuffleButton.addEventListener('click', shuffle);
 resetButton.addEventListener("click", () => {
   userData.songs = [...allSongs];
+
+  renderSongs(sortSongs);
 });
 
 const renderSongs = (array) => {
