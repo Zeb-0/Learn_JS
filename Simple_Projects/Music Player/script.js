@@ -211,6 +211,7 @@ resetButton.addEventListener("click", () => {
 
   renderSongs(sortSongs);
   setPlayButtonAccessibleText();
+  remove(resetButton);
 });
 
 const renderSongs = (array) => {
