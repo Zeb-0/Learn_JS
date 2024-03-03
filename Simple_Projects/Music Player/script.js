@@ -209,9 +209,9 @@ shuffleButton.addEventListener('click', shuffle);
 resetButton.addEventListener("click", () => {
   userData.songs = [...allSongs];
 
-  renderSongs(sortSongs);
+  renderSongs(sortSongs());
   setPlayButtonAccessibleText();
-  remove(resetButton);
+  resetButton.remove();
 });
 
 const renderSongs = (array) => {
